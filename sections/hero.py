@@ -13,8 +13,7 @@ def render():
         "h-screen w-screen flex flex-col no-repeat bg-cover bg-center"
     ):
         # navbar
-        with ui.element("nav").classes("flex flex-row justify-between w-full fixed left-0 top-0 px-20 py-10 text-white"
-                  ):
+        with ui.element("nav").classes("flex flex-row justify-between w-full fixed left-0 top-0 px-20 py-10 text-white"):
             # logo
             ui.label("LOGO")
 
